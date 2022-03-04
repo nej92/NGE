@@ -8,7 +8,7 @@ html {
   font-weight: 200;
   scroll-behavior: smooth;
 }
-nav {
+.nav-conteiner {
   position: fixed;
   width: 100%;
   height: 3.5em;
@@ -19,41 +19,42 @@ nav {
   background-color: #000000;
   z-index: 999;
 }
-nav div {
+.nav-menu {
   height: 100%;
   display: flex;
   align-items: center;
 }
-nav div img {
+.nav-menu-img {
   width: 2.5em;
   margin: 0 0.5em 0 1em;
 }
-nav div a {
+.nav-link {
   text-decoration: none;
   color: white;
   margin: 0 1em 0 0;
 }
-header {
+.header-conteiner {
+  position: relative;
   width: 100%;
-  height: 100vh;
+  height: 60em;
   font-size: 1em;
-  padding-top: 10vh; /*em*/
+  padding-top: 5em;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
-header div {
+.header-logo-conteiner {
   width: 25em;
   text-align: center;
 }
-header div img {
+.header-logo {
   width: 12em;
 }
-header div h4 {
+.logo-text {
   font-size: 1.1em;
 }
-header div span {
+.asegurar {
   color: #39c0e7;
 }
 .headerCeluChica {
@@ -72,18 +73,18 @@ header div span {
   bottom: 0px;
   margin: 0 1em 1em 0;
 }
-.redes img {
+.redes-imgs {
   width: 4em;
   height: 4em;
 }
-section {
+.section-conteiner {
   width: 100%;
   font-size: 1em;
+  margin-top: 4em;
   display: flex;
   justify-content: center;
-  margin-top: 4em;
 }
-section div {
+.section-div {
   width: 10em;
   height: 10em;
   font-size: 1em;
@@ -94,10 +95,10 @@ section div {
   background-color: #000000;
   border-radius: 50%;
 }
-section div h4 {
+.section-div-text {
   color: #f1f743;
 }
-.nosotros {
+.nosotros-conteiner {
   position: relative;
   width: 100%;
   height: 45em;
@@ -107,34 +108,37 @@ section div h4 {
   justify-content: center;
   align-items: center;
 }
-.nosotros div {
+.nosotros {
   min-width: 60%;
 }
-.nosotros div img {
+.nosotros-img {
   width: 4em;
 }
-.nosotros div h2 {
+.nosotros-texth2 {
   font-size: 3em;
   margin-bottom: 0.2em;
 }
-.nosotros div span {
+.broker {
   color: #ea37ae;
 }
-.nosotros div h6 {
+.nosotros-texth6 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
-.chica_nosotos {
+.nosotros-parraph {
+  font-size: 1.2em;
+}
+.chica_nosotros {
   max-height: 100%;
 }
-.franja-destacado {
+.franja-destacado-conteiner {
   width: 100%;
   font-size: 1em;
   display: flex;
   justify-content: space-around;
   background-color: #000000;
 }
-.franja-destacado div {
+.franja-destacado-div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -142,7 +146,7 @@ section div h4 {
   margin: 2em 0 2em 0;
   text-align: center;
 }
-.franja-destacado div h3 {
+.franja-text {
   color: #ffff;
   margin-top: 0.7em;
 }
@@ -152,7 +156,7 @@ section div h4 {
 .img-chica {
   width: 5em;
 }
-.seguros {
+.seguros-conteiner {
   width: 100%;
   font-size: 1em;
   display: flex;
@@ -160,15 +164,15 @@ section div h4 {
   flex-direction: column;
   padding: 2em 12em 2em 12em;
 }
-.seguros img {
+.seguros-conteiner-img {
   width: 10em;
 }
-.seguros p {
+.seguros-parraph {
   font-size: 1.5em;
   text-align: center;
   margin: 2em 0 2em 0;
 }
-.iconos-seguro img {
+.iconos-seguros-img {
   width: 6em;
   margin: 0.5em 0.5em 0.5em 0.5em;
 }
@@ -182,11 +186,11 @@ section div h4 {
   text-align: center;
   padding: 3em 12em;
 }
-.cotiza100 h2 {
+.cotiza100-parraph {
   color: #ffff;
   font-size: 2em;
 }
-.cotiza100 h2 span {
+.asesoramos {
   color: #39c0e7;
 }
 .cotizar {
@@ -201,16 +205,16 @@ section div h4 {
   border-radius: 50%;
   margin-top: 2em;
 }
-.cotizar h4 {
-  color: black;
+.cotizar-text {
+  color: #000000;
 }
 .contacto-container {
   position: relative;
   width: 100%;
   font-size: 1em;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   background-color: #f0f0f0;
   padding-top: 3em;
 }
@@ -218,12 +222,12 @@ section div h4 {
   display: flex;
   flex-direction: column;
 }
-.column1 div {
+.column1-div1 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.column1 h1 {
+.column1-text {
   font-size: 4em;
 }
 .doble-flecha {
@@ -233,14 +237,16 @@ section div h4 {
 .contact-data {
   width: 100%;
   display: flex;
-  padding-left: 5em;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 45%;
   margin-top: 2em;
 }
-.contact-data img {
+.contact-data-img {
   width: 4em;
   margin-right: 1em;
 }
-.contact-data h3 {
+.contact-data-text {
   font-size: 2em;
 }
 .foto-chicos {
@@ -254,7 +260,7 @@ section div h4 {
   margin: 0 2em 2em 0;
   z-index: 9999;
 }
-footer {
+.footer-conteiner {
   width: 100%;
   font-size: 1em;
   display: flex;
@@ -262,82 +268,85 @@ footer {
   align-items: center;
   padding: 2em 0 2em 0;
 }
-footer div {
+.footer-divs {
   display: flex;
   flex-direction: column;
 }
-footer img {
+.footer-divs {
+  font-size: 1em;
+}
+.footer-img {
   width: 21em;
 }
 /*-----------------------RESPONSIVE-----------------------*/
 @media (max-width: 1680px) {
-  header {
+  .header-conteiner {
     font-size: 0.9em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.8em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.7em;
   }
   .contacto-container {
     font-size: 0.8em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.9em;
   }
 }
 @media (max-width: 1440px) {
-  header {
+  .header-conteiner {
     font-size: 0.9em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.8em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.7em;
   }
   .contacto-container {
     font-size: 0.7em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.9em;
   }
 }
 @media (max-width: 1280px) {
-  header {
+  .header-conteiner {
     font-size: 0.85em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.75em;
   }
-  .franja-destacado {
+  .franja-destacado-conteiner {
     font-size: 0.75em;
   }
   .cotiza100 {
     font-size: 0.7em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.7em;
   }
   .contacto-container {
     font-size: 0.5em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.8em;
   }
 }
 @media (max-width: 960px) {
-  header {
+  .header-conteiner {
     font-size: 0.8em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.6em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.6em;
   }
-  .franja-destacado {
+  .franja-destacado-conteiner {
     font-size: 0.7em;
   }
   .cotiza100 {
@@ -346,28 +355,28 @@ footer img {
   .contacto-container {
     font-size: 0.45em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.6em;
   }
 }
 @media (max-width: 768px) {
-  nav {
+  .nav-conteiner {
     font-size: 0.9em;
   }
-  header {
+  .header-conteiner {
     font-size: 0.7em;
     overflow-x: hidden;
   }
-  section {
+  .section-conteiner {
     font-size: 0.8em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.5em;
   }
-  .franja-destacado {
+  .franja-destacado-conteiner {
     font-size: 0.6em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.5em;
   }
   .cotiza100 {
@@ -376,52 +385,24 @@ footer img {
   .contacto-container {
     font-size: 0.3em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.5em;
   }
 }
 @media (max-width: 576px) {
-  nav {
+  .nav-conteiner {
     font-size: 0.8em;
   }
-  header {
+  .header-conteiner {
     font-size: 0.7em;
   }
-  .headerCeluChica {
-    display: none;
-    animation-name: celuchica;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  .headerCeluChico {
-    display: block;
-    animation-name: gif;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-  }
-  @keyframes gif {
-    from {
-      display: block;
-    }
-    to {
-      display: none;
-    }
-  }
-  @keyframes s {
-    from {
-      display: none;
-    }
-    to {
-      display: block;
-    }
-  }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.4em;
   }
-  .franja-destacado {
+  .franja-destacado-conteiner {
     font-size: 0.45em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.4em;
   }
   .cotiza100 {
@@ -430,25 +411,25 @@ footer img {
   .contacto-container {
     font-size: 0.25em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.4em;
   }
 }
 @media (max-width: 480px) {
-  nav {
+  .nav-conteiner {
     font-size: 0.5em;
     height: 5em;
   }
-  section div {
+  .section-div {
     font-size: 0.8em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.3em;
   }
-  .franja-destacado {
+  .franja-destacado-conteiner {
     font-size: 0.35em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.3em;
   }
   .cotiza100 {
@@ -457,27 +438,27 @@ footer img {
   .contacto-container {
     font-size: 0.2em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.3em;
   }
 }
 @media (max-width: 360px) {
-  nav {
+  .nav-conteiner {
     font-size: 0.5em;
   }
-  header {
+  .header-conteiner {
     font-size: 0.6em;
   }
-  section div {
+  .section-div {
     font-size: 0.6em;
   }
-  .nosotros {
+  .nosotros-conteiner {
     font-size: 0.3em;
   }
-  .franja-destacado {
+  .franja-destacado-conteiner {
     font-size: 0.3em;
   }
-  .seguros {
+  .seguros-conteiner {
     font-size: 0.3em;
   }
   .cotiza100 {
@@ -486,7 +467,7 @@ footer img {
   .contacto-container {
     font-size: 0.2em;
   }
-  footer {
+  .footer-conteiner {
     font-size: 0.2em;
   }
 }
