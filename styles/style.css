@@ -81,6 +81,7 @@ html {
   width: 100%;
   font-size: 1em;
   margin-top: 4em;
+  margin-bottom: 4em;
   display: flex;
   justify-content: center;
 }
@@ -97,6 +98,7 @@ html {
 }
 .section-div-text {
   color: #f1f743;
+  text-decoration: none;
 }
 .nosotros-conteiner {
   position: relative;
@@ -173,7 +175,7 @@ html {
   margin: 2em 0 2em 0;
 }
 .iconos-seguros-img {
-  width: 6em;
+  width: 4em;
   margin: 0.5em 0.5em 0.5em 0.5em;
 }
 .cotiza100 {
@@ -207,6 +209,8 @@ html {
 }
 .cotizar-text {
   color: #000000;
+  font-size: 1em;
+  text-decoration: none;
 }
 .contacto-container {
   position: relative;
@@ -389,12 +393,23 @@ html {
     font-size: 0.5em;
   }
 }
+@media (max-width: 600px) {
+  .cotiza100 {
+    font-size: 0.6em;
+  }
+}
 @media (max-width: 576px) {
   .nav-conteiner {
     font-size: 0.8em;
   }
   .header-conteiner {
     font-size: 0.7em;
+  }
+  .headerCeluChica {
+    width: 50em;
+  }
+  .header-logo-conteiner {
+    font-size: 1.3em;
   }
   .nosotros-conteiner {
     font-size: 0.4em;
@@ -420,8 +435,15 @@ html {
     font-size: 0.5em;
     height: 5em;
   }
-  .section-div {
-    font-size: 0.8em;
+  .header-logo-conteiner {
+    font-size: 1.2em;
+  }
+  .headerCeluChica {
+    display: none;
+  }
+  .headerCeluChico {
+    display: block;
+    width: 43em;
   }
   .nosotros-conteiner {
     font-size: 0.3em;
@@ -431,6 +453,9 @@ html {
   }
   .seguros-conteiner {
     font-size: 0.3em;
+  }
+  .seguros-parraph {
+    font-size: 2em;
   }
   .cotiza100 {
     font-size: 0.3em;
@@ -449,8 +474,11 @@ html {
   .header-conteiner {
     font-size: 0.6em;
   }
+  .headerCeluChico {
+    width: 30em;
+  }
   .section-div {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   .nosotros-conteiner {
     font-size: 0.3em;
@@ -462,13 +490,45 @@ html {
     font-size: 0.3em;
   }
   .cotiza100 {
-    font-size: 0.3em;
+    font-size: 0.4em;
   }
   .contacto-container {
     font-size: 0.2em;
   }
   .footer-conteiner {
     font-size: 0.2em;
+  }
+}
+@media (max-width: 330px) {
+  .nav-conteiner {
+    font-size: 0.5em;
+  }
+  .header-conteiner {
+    font-size: 0.5em;
+  }
+  .headerCeluChico {
+    width: 25em;
+  }
+  .section-div {
+    font-size: 0.7em;
+  }
+  .nosotros-conteiner {
+    font-size: 0.2em;
+  }
+  .franja-destacado-conteiner {
+    font-size: 0.25em;
+  }
+  .seguros-conteiner {
+    font-size: 0.25em;
+  }
+  .cotiza100 {
+    font-size: 0.2em;
+  }
+  .contacto-container {
+    font-size: 0.18em;
+  }
+  .footer-conteiner {
+    font-size: 0.1em;
   }
 }
 /*
