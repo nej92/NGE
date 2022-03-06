@@ -12,7 +12,7 @@ html {
   position: fixed;
   width: 100%;
   height: 3.5em;
-  font-size: 1.1em;
+  font-size: 1.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +37,7 @@ html {
   position: relative;
   width: 100%;
   height: 60em;
-  font-size: 1em;
+  font-size: 1rem;
   padding-top: 5em;
   display: flex;
   justify-content: space-around;
@@ -104,7 +104,7 @@ html {
   position: relative;
   width: 100%;
   height: 45em;
-  font-size: 1em;
+  font-size: 1rem;
   padding: 1% 3% 0 10%;
   display: flex;
   justify-content: center;
@@ -160,7 +160,7 @@ html {
 }
 .seguros-conteiner {
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -180,7 +180,7 @@ html {
 }
 .cotiza100 {
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   background-color: #000000;
   display: flex;
   flex-direction: column;
@@ -215,7 +215,7 @@ html {
 .contacto-container {
   position: relative;
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -266,7 +266,7 @@ html {
 }
 .footer-conteiner {
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -285,125 +285,125 @@ html {
 /*-----------------------RESPONSIVE-----------------------*/
 @media (max-width: 1680px) {
   .header-conteiner {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
   .nosotros-conteiner {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .seguros-conteiner {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .contacto-container {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .footer-conteiner {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 1440px) {
   .header-conteiner {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
   .nosotros-conteiner {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .seguros-conteiner {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .contacto-container {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .footer-conteiner {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 1280px) {
   .header-conteiner {
-    font-size: 0.85em;
+    font-size: 0.85rem;
   }
   .nosotros-conteiner {
-    font-size: 0.75em;
+    font-size: 0.75rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.75em;
+    font-size: 0.75rem;
   }
   .cotiza100 {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .seguros-conteiner {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .contacto-container {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .footer-conteiner {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
 }
 @media (max-width: 960px) {
   .header-conteiner {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .nosotros-conteiner {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
   .seguros-conteiner {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .cotiza100 {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
   .contacto-container {
-    font-size: 0.45em;
+    font-size: 0.45rem;
   }
   .footer-conteiner {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
 }
 @media (max-width: 768px) {
   .nav-conteiner {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
   .header-conteiner {
-    font-size: 0.7em;
+    font-size: 0.7rem;
     overflow-x: hidden;
   }
   .section-conteiner {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .nosotros-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
   .seguros-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .cotiza100 {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .contacto-container {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .footer-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
 }
 @media (max-width: 600px) {
   .cotiza100 {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
 }
 @media (max-width: 576px) {
   .nav-conteiner {
-    font-size: 0.8em;
+    font-size: 0.8rem;
   }
   .header-conteiner {
-    font-size: 0.7em;
+    font-size: 0.7rem;
   }
   .headerCeluChica {
     width: 50em;
@@ -412,27 +412,27 @@ html {
     font-size: 1.3em;
   }
   .nosotros-conteiner {
-    font-size: 0.4em;
+    font-size: 0.4rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.45em;
+    font-size: 0.45rem;
   }
   .seguros-conteiner {
-    font-size: 0.4em;
+    font-size: 0.4rem;
   }
   .cotiza100 {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .contacto-container {
-    font-size: 0.25em;
+    font-size: 0.25rem;
   }
   .footer-conteiner {
-    font-size: 0.4em;
+    font-size: 0.4rem;
   }
 }
 @media (max-width: 480px) {
   .nav-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
     height: 5em;
   }
   .header-logo-conteiner {
@@ -446,33 +446,33 @@ html {
     width: 43em;
   }
   .nosotros-conteiner {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.35em;
+    font-size: 0.35rem;
   }
   .seguros-conteiner {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .seguros-parraph {
     font-size: 2em;
   }
   .cotiza100 {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .contacto-container {
-    font-size: 0.2em;
+    font-size: 0.2rem;
   }
   .footer-conteiner {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
 }
 @media (max-width: 360px) {
   .nav-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .header-conteiner {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
   .headerCeluChico {
     width: 30em;
@@ -481,30 +481,30 @@ html {
     font-size: 0.8em;
   }
   .nosotros-conteiner {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .seguros-conteiner {
-    font-size: 0.3em;
+    font-size: 0.3rem;
   }
   .cotiza100 {
-    font-size: 0.4em;
+    font-size: 0.4rem;
   }
   .contacto-container {
-    font-size: 0.2em;
+    font-size: 0.2rem;
   }
   .footer-conteiner {
-    font-size: 0.2em;
+    font-size: 0.2rem;
   }
 }
 @media (max-width: 330px) {
   .nav-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .header-conteiner {
-    font-size: 0.5em;
+    font-size: 0.5rem;
   }
   .headerCeluChico {
     width: 25em;
@@ -513,22 +513,22 @@ html {
     font-size: 0.7em;
   }
   .nosotros-conteiner {
-    font-size: 0.2em;
+    font-size: 0.2rem;
   }
   .franja-destacado-conteiner {
-    font-size: 0.25em;
+    font-size: 0.25rem;
   }
   .seguros-conteiner {
-    font-size: 0.25em;
+    font-size: 0.25rem;
   }
   .cotiza100 {
-    font-size: 0.2em;
+    font-size: 0.2rem;
   }
   .contacto-container {
-    font-size: 0.18em;
+    font-size: 0.18rem;
   }
   .footer-conteiner {
-    font-size: 0.1em;
+    font-size: 0.1rem;
   }
 }
 /*
