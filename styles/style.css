@@ -8,7 +8,7 @@ html {
   font-weight: 200;
   scroll-behavior: smooth;
 }
-.nav-conteiner {
+#nav-conteiner {
   position: fixed;
   width: 100%;
   height: 3.5em;
@@ -33,7 +33,7 @@ html {
   color: white;
   margin: 0 1em 0 0;
 }
-.header-conteiner {
+#header-conteiner {
   position: relative;
   width: 100%;
   height: 60em;
@@ -44,27 +44,23 @@ html {
   align-items: center;
   flex-direction: column;
 }
-.header-logo-conteiner {
+#header-logo-conteiner {
   width: 25em;
   text-align: center;
 }
-.header-logo {
+#header-logo {
   width: 12em;
 }
-.logo-text {
+#logo-text {
   font-size: 1.1em;
 }
 .asegurar {
   color: #39c0e7;
 }
-.headerCeluChica {
-  width: 60em;
+#headerCeluChicos {
+  width: 45em;
 }
-.headerCeluChico {
-  display: none;
-  width: 60em;
-}
-.redes {
+#redes {
   width: auto;
   position: absolute;
   display: flex;
@@ -77,7 +73,7 @@ html {
   width: 4em;
   height: 4em;
 }
-.section-conteiner {
+#section-conteiner {
   width: 100%;
   font-size: 1em;
   margin-top: 4em;
@@ -85,7 +81,7 @@ html {
   display: flex;
   justify-content: center;
 }
-.section-div {
+#section-div {
   width: 10em;
   height: 10em;
   font-size: 1em;
@@ -96,11 +92,11 @@ html {
   background-color: #000000;
   border-radius: 50%;
 }
-.section-div-text {
+#section-div-text {
   color: #f1f743;
   text-decoration: none;
 }
-.nosotros-conteiner {
+#nosotros-conteiner {
   position: relative;
   width: 100%;
   height: 45em;
@@ -110,30 +106,30 @@ html {
   justify-content: center;
   align-items: center;
 }
-.nosotros {
+#nosotros {
   min-width: 60%;
 }
-.nosotros-img {
+#nosotros-img {
   width: 4em;
 }
-.nosotros-texth2 {
+#nosotros-texth2 {
   font-size: 3em;
   margin-bottom: 0.2em;
 }
-.broker {
+#broker {
   color: #ea37ae;
 }
-.nosotros-texth6 {
+#nosotros-texth6 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
-.nosotros-parraph {
+#nosotros-parraph {
   font-size: 1.2em;
 }
-.chica_nosotros {
+#chica_nosotros {
   max-height: 100%;
 }
-.franja-destacado-conteiner {
+#franja-destacado-conteiner {
   width: 100%;
   font-size: 1em;
   display: flex;
@@ -158,7 +154,7 @@ html {
 .img-chica {
   width: 5em;
 }
-.seguros-conteiner {
+#seguros-conteiner {
   width: 100%;
   font-size: 1rem;
   display: flex;
@@ -166,19 +162,22 @@ html {
   flex-direction: column;
   padding: 2em 12em 2em 12em;
 }
-.seguros-conteiner-img {
+#seguros-conteiner-img {
   width: 10em;
 }
-.seguros-parraph {
+#seguros-parraph {
   font-size: 1.5em;
   text-align: center;
   margin: 2em 0 2em 0;
+}
+.iconos-seguro {
+  width: auto; /*VER SI SE ROMPE*/
 }
 .iconos-seguros-img {
   width: 4em;
   margin: 0.5em 0.5em 0.5em 0.5em;
 }
-.cotiza100 {
+#cotiza100 {
   width: 100%;
   font-size: 1rem;
   background-color: #000000;
@@ -192,10 +191,10 @@ html {
   color: #ffff;
   font-size: 2em;
 }
-.asesoramos {
+#asesoramos {
   color: #39c0e7;
 }
-.cotizar {
+#cotizar {
   width: 10em;
   height: 10em;
   font-size: 1em;
@@ -207,12 +206,12 @@ html {
   border-radius: 50%;
   margin-top: 2em;
 }
-.cotizar-text {
+#cotizar-text {
   color: #000000;
   font-size: 1em;
   text-decoration: none;
 }
-.contacto-container {
+#contacto-container {
   position: relative;
   width: 100%;
   font-size: 1rem;
@@ -222,21 +221,23 @@ html {
   background-color: #f0f0f0;
   padding-top: 3em;
 }
-.column1 {
+#column1 {
+  min-width: 52em;
   display: flex;
   flex-direction: column;
+  margin-right: 10%;
 }
-.column1-div1 {
+#column1-div1 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-.column1-text {
-  font-size: 4em;
-}
-.doble-flecha {
+#doble-flecha {
   width: 5em;
   margin-right: 2em;
+}
+#column1-text {
+  font-size: 4em;
 }
 .contact-data {
   width: 100%;
@@ -253,10 +254,10 @@ html {
 .contact-data-text {
   font-size: 2em;
 }
-.foto-chicos {
+#foto-chicos {
   width: 50em;
 }
-.ngeLogoContacto {
+#ngeLogoContacto {
   position: absolute;
   width: 9em;
   bottom: 0px;
@@ -264,7 +265,7 @@ html {
   margin: 0 2em 2em 0;
   z-index: 9999;
 }
-.footer-conteiner {
+#footer-conteiner {
   width: 100%;
   font-size: 1rem;
   display: flex;
@@ -279,255 +280,246 @@ html {
 .footer-divs {
   font-size: 1em;
 }
-.footer-img {
+#footer-img {
   width: 21em;
 }
 /*-----------------------RESPONSIVE-----------------------*/
 @media (max-width: 1680px) {
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.9rem;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.8rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.7rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.8rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.9rem;
   }
 }
 @media (max-width: 1440px) {
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.9rem;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.8rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.7rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.7rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.9rem;
   }
 }
 @media (max-width: 1280px) {
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.85rem;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.75rem;
   }
-  .franja-destacado-conteiner {
+  #franja-destacado-conteiner {
     font-size: 0.75rem;
   }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.7rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.7rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.5rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.8rem;
   }
 }
 @media (max-width: 960px) {
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.8rem;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.6rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.6rem;
   }
-  .franja-destacado-conteiner {
+  #franja-destacado-conteiner {
     font-size: 0.7rem;
   }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.6rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.45rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.6rem;
   }
 }
 @media (max-width: 768px) {
-  .nav-conteiner {
+  #nav-conteiner {
     font-size: 0.9rem;
   }
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.7rem;
     overflow-x: hidden;
   }
-  .section-conteiner {
+  #section-conteiner {
     font-size: 0.8rem;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.5rem;
   }
-  .franja-destacado-conteiner {
+  #franja-destacado-conteiner {
     font-size: 0.6rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.5rem;
   }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.5rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.3rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.5rem;
-  }
-}
-@media (max-width: 600px) {
-  .cotiza100 {
-    font-size: 0.6rem;
   }
 }
 @media (max-width: 576px) {
-  .nav-conteiner {
+  #nav-conteiner {
     font-size: 0.8rem;
   }
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.7rem;
   }
-  .headerCeluChica {
-    width: 50em;
+  #headerCeluChicos {
+    width: 40em;
   }
-  .header-logo-conteiner {
+  #header-logo-conteiner {
     font-size: 1.3em;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.4rem;
   }
-  .franja-destacado-conteiner {
+  #franja-destacado-conteiner {
     font-size: 0.45rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.4rem;
   }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.5rem;
   }
-  .contacto-container {
+  .cotiza100-parraph {
+    font-size: 1.5em;
+  }
+  #contacto-container {
     font-size: 0.25rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.4rem;
   }
 }
 @media (max-width: 480px) {
-  .nav-conteiner {
+  #nav-conteiner {
     font-size: 0.5rem;
     height: 5em;
   }
-  .header-logo-conteiner {
+  #header-logo-conteiner {
     font-size: 1.2em;
   }
-  .headerCeluChica {
-    display: none;
-  }
-  .headerCeluChico {
-    display: block;
-    width: 43em;
-  }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.3rem;
   }
-  .franja-destacado-conteiner {
+  #franja-destacado-conteiner {
     font-size: 0.35rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.3rem;
   }
-  .seguros-parraph {
+  #seguros-parraph {
     font-size: 2em;
   }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.3rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.2rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.3rem;
   }
 }
 @media (max-width: 360px) {
-  .nav-conteiner {
+  #nav-conteiner {
     font-size: 0.5rem;
   }
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.6rem;
   }
-  .headerCeluChico {
-    width: 30em;
-  }
-  .section-div {
+  #section-div {
     font-size: 0.8em;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
+    font-size: 0.25rem;
+  }
+  #franja-destacado-conteiner {
     font-size: 0.3rem;
   }
-  .franja-destacado-conteiner {
+  #seguros-conteiner {
     font-size: 0.3rem;
   }
-  .seguros-conteiner {
-    font-size: 0.3rem;
-  }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.4rem;
   }
-  .contacto-container {
+  .cotiza100-parraph {
+    font-size: 1.3em;
+  }
+  #contacto-container {
     font-size: 0.2rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.2rem;
   }
 }
 @media (max-width: 330px) {
-  .nav-conteiner {
+  #nav-conteiner {
     font-size: 0.5rem;
   }
-  .header-conteiner {
+  #header-conteiner {
     font-size: 0.5rem;
   }
-  .headerCeluChico {
-    width: 25em;
+  #headerCeluChicos {
+    width: 40em;
   }
-  .section-div {
+  #section-div {
     font-size: 0.7em;
   }
-  .nosotros-conteiner {
+  #nosotros-conteiner {
     font-size: 0.2rem;
   }
-  .franja-destacado-conteiner {
+  #franja-destacado-conteiner {
     font-size: 0.25rem;
   }
-  .seguros-conteiner {
+  #seguros-conteiner {
     font-size: 0.25rem;
   }
-  .cotiza100 {
+  #cotiza100 {
     font-size: 0.2rem;
   }
-  .contacto-container {
+  #contacto-container {
     font-size: 0.18rem;
   }
-  .footer-conteiner {
+  #footer-conteiner {
     font-size: 0.1rem;
   }
 }
@@ -540,5 +532,6 @@ Códigos de color:
 - Negro: #000000
 
 Google Font:
-- Poppins
+- Poppins-bold: botones COTIZAR SEGUROS
+- Poppins:
 */
