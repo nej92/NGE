@@ -470,7 +470,8 @@ html {
     font-size: 0.3rem;
   }
 }
-@media (max-width: 360px) {
+@media (max-width: 414px) {
+  /*IPHONE*/
   #nav-conteiner {
     font-size: 0.5rem;
   }
@@ -482,6 +483,11 @@ html {
   }
   #nosotros-conteiner {
     font-size: 0.25rem;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
   }
   #franja-destacado-conteiner {
     font-size: 0.3rem;
@@ -497,6 +503,7 @@ html {
   }
   #contacto-container {
     font-size: 0.2rem;
+    flex-direction: column;
   }
   #footer-conteiner {
     font-size: 0.15rem;
@@ -515,10 +522,6 @@ html {
   }
   #section-conteiner {
     font-size: 0.6em;
-  }
-  #nosotros-conteiner {
-    font-size: 0.2rem;
-    height: 45em;
   }
   #nosotros {
     font-size: 0.6em;
