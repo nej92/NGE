@@ -95,6 +95,7 @@ html {
   border-radius: 50%;
 }
 #section-div-text {
+  font-family: "Poppins semibold";
   color: #f1f743;
   text-decoration: none;
 }
@@ -109,24 +110,28 @@ html {
   align-items: flex-end;
 }
 #nosotros {
+  font-size: 0.9em;
   min-width: 60%;
 }
 #nosotros-img {
   width: 4em;
 }
 #nosotros-texth2 {
-  font-size: 3em;
+  font-family: "Poppins semibold";
+  font-size: 3.5em;
   margin-bottom: 0.2em;
 }
 #broker {
   color: #ea37ae;
 }
 #nosotros-texth6 {
+  font-family: "Poppins medium";
   font-size: 2em;
   margin-bottom: 0.5em;
 }
 #nosotros-parraph {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  font-family: "Poppins medium";
 }
 #chica_nosotros {
   width: 25em;
@@ -142,6 +147,7 @@ html {
 }
 .franja-destacado-div {
   display: flex;
+  font-family: "Poppins semibold";
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -169,9 +175,10 @@ html {
   padding: 2em 12em 2em 12em;
 }
 #seguros-conteiner-img {
-  width: 10em;
+  width: 9em;
 }
 #seguros-parraph {
+  font-family: "Poppins medium";
   font-size: 1.5em;
   text-align: center;
   margin: 2em 0 2em 0;
@@ -196,6 +203,7 @@ html {
   padding: 3em 12em;
 }
 .cotiza100-parraph {
+  font-family: "Poppins semibold";
   color: #ffff;
   font-size: 2em;
 }
@@ -215,6 +223,7 @@ html {
   margin-top: 2em;
 }
 #cotizar-text {
+  font-family: "Poppins semibold";
   color: #000000;
   font-size: 1em;
   text-decoration: none;
@@ -246,6 +255,7 @@ html {
   margin-right: 2em;
 }
 #column1-text {
+  font-family: "Poppins semibold";
   font-size: 4em;
 }
 .contact-data {
@@ -261,6 +271,7 @@ html {
   margin-right: 1em;
 }
 .contact-data-text {
+  font-family: "Poppins medium";
   font-size: 2em;
 }
 #foto-chicos {
@@ -405,6 +416,14 @@ html {
     font-size: 0.5rem;
   }
 }
+@media (max-width: 620px) {
+  #nosotros-conteiner {
+    font-size: 0.4rem;
+  }
+  #franja-destacado-conteiner {
+    font-size: 0.5rem;
+  }
+}
 @media (max-width: 576px) {
   #nav-conteiner {
     font-size: 0.8rem;
@@ -422,7 +441,7 @@ html {
     font-size: 0.4rem;
   }
   #franja-destacado-conteiner {
-    font-size: 0.45rem;
+    font-size: 0.4rem;
   }
   #seguros-conteiner {
     font-size: 0.4rem;
@@ -438,6 +457,14 @@ html {
   }
   #footer-conteiner {
     font-size: 0.4rem;
+  }
+}
+@media (max-width: 497px) {
+  #nosotros-conteiner {
+    font-size: 0.35rem;
+  }
+  #franja-destacado-conteiner {
+    font-size: 0.35rem;
   }
 }
 @media (max-width: 480px) {
@@ -481,33 +508,26 @@ html {
   #section-conteiner {
     font-size: 0.7em;
   }
-  #nosotros-conteiner {
-    font-size: 0.25rem;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-  }
   #franja-destacado-conteiner {
     font-size: 0.3rem;
   }
   #seguros-conteiner {
     font-size: 0.3rem;
   }
-  #cotiza100 {
-    font-size: 0.4rem;
-  }
   .cotiza100-parraph {
     font-size: 1.3em;
   }
   #contacto-container {
     font-size: 0.2rem;
-    flex-direction: column;
   }
   #footer-conteiner {
     font-size: 0.15rem;
     height: 10em;
+  }
+}
+@media (max-width: 373px) {
+  #nosotros-conteiner {
+    font-size: 0.25rem;
   }
 }
 @media (max-width: 330px) {
@@ -523,8 +543,8 @@ html {
   #section-conteiner {
     font-size: 0.6em;
   }
-  #nosotros {
-    font-size: 0.6em;
+  #nosotros-conteiner {
+    font-size: 0.25rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.25rem;
