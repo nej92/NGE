@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
   scroll-behavior: smooth;
 }
 #nav-conteiner {
@@ -29,6 +27,7 @@ html {
   margin: 0 0.5em 0 1em;
 }
 .nav-link {
+  font-family: "Poppins";
   text-decoration: none;
   color: white;
   margin: 0 1em 0 0;
@@ -52,6 +51,7 @@ html {
   width: 12em;
 }
 #logo-text {
+  font-family: "Poppins semibold";
   font-size: 1.1em;
 }
 .asegurar {
@@ -62,8 +62,8 @@ html {
   height: auto;
 }
 #redes {
-  width: auto;
   position: absolute;
+  width: auto;
   display: flex;
   flex-direction: column;
   right: 0px;
@@ -100,25 +100,25 @@ html {
   text-decoration: none;
 }
 #nosotros-conteiner {
-  position: relative;
   width: 100%;
-  height: 45em;
-  font-size: 1rem;
-  padding: 1% 3% 0 10%;
+  height: 30em;
+  font-size: 1.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-end;
+  border: 1px red solid;
 }
 #nosotros {
   font-size: 0.9em;
-  min-width: 60%;
+  min-width: 40em;
+  height: 100%;
+  padding-top: 2em;
 }
 #nosotros-img {
-  width: 4em;
+  width: 2.5em;
 }
 #nosotros-texth2 {
   font-family: "Poppins semibold";
-  font-size: 3.5em;
   margin-bottom: 0.2em;
 }
 #broker {
@@ -126,27 +126,26 @@ html {
 }
 #nosotros-texth6 {
   font-family: "Poppins medium";
-  font-size: 2em;
   margin-bottom: 0.5em;
 }
 #nosotros-parraph {
-  font-size: 1.3em;
   font-family: "Poppins medium";
 }
 #chica_nosotros {
-  width: 25em;
+  width: 17em;
   height: auto;
 }
 #franja-destacado-conteiner {
   width: 100%;
   height: 13em;
-  font-size: 1em;
+  font-size: 1rem;
   display: flex;
   justify-content: space-around;
   background-color: #000000;
 }
 .franja-destacado-div {
   display: flex;
+  font-size: 1em;
   font-family: "Poppins semibold";
   flex-direction: column;
   justify-content: space-between;
@@ -155,14 +154,17 @@ html {
   text-align: center;
 }
 .franja-text {
+  font-family: "Poppins";
   color: #ffff;
   margin-top: 0.7em;
 }
 .img-grande {
   width: 3em;
+  height: auto;
 }
 .img-chica {
   width: 5em;
+  height: auto;
 }
 #seguros-conteiner {
   width: 100%;
@@ -176,6 +178,7 @@ html {
 }
 #seguros-conteiner-img {
   width: 9em;
+  height: auto;
 }
 #seguros-parraph {
   font-family: "Poppins medium";
@@ -231,24 +234,27 @@ html {
 #contacto-container {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 45em;
   font-size: 1rem;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: flex-end;
   background-color: #f0f0f0;
-  padding-top: 3em;
 }
 #column1 {
   min-width: 52em;
+  height: auto;
   display: flex;
   flex-direction: column;
-  margin-right: 10%;
+  margin-right: 13em;
+  margin-bottom: 10em;
+  border: 1px red solid;
 }
 #column1-div1 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  border: 1px red solid;
 }
 #doble-flecha {
   width: 5em;
@@ -263,7 +269,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-left: 45%;
+  padding-left: 22em;
   margin-top: 2em;
 }
 .contact-data-img {
@@ -296,6 +302,7 @@ html {
   padding: 2em 0 2em 0;
 }
 .footer-divs {
+  font-family: "Poppins light";
   display: flex;
   flex-direction: column;
 }
@@ -304,6 +311,7 @@ html {
 }
 #footer-img {
   width: 21em;
+  height: auto;
 }
 /*-----------------------RESPONSIVE-----------------------*/
 @media (max-width: 1680px) {
@@ -311,7 +319,7 @@ html {
     font-size: 0.9rem;
   }
   #nosotros-conteiner {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
   #seguros-conteiner {
     font-size: 0.7rem;
@@ -328,7 +336,7 @@ html {
     font-size: 0.9rem;
   }
   #nosotros-conteiner {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
   #seguros-conteiner {
     font-size: 0.7rem;
@@ -345,7 +353,7 @@ html {
     font-size: 0.85rem;
   }
   #nosotros-conteiner {
-    font-size: 0.75rem;
+    font-size: 1rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.75rem;
@@ -368,7 +376,7 @@ html {
     font-size: 0.8rem;
   }
   #nosotros-conteiner {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   #seguros-conteiner {
     font-size: 0.6rem;
@@ -398,7 +406,7 @@ html {
     font-size: 0.8rem;
   }
   #nosotros-conteiner {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.6rem;
@@ -418,7 +426,7 @@ html {
 }
 @media (max-width: 620px) {
   #nosotros-conteiner {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.5rem;
@@ -438,7 +446,7 @@ html {
     font-size: 1.3em;
   }
   #nosotros-conteiner {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.4rem;
@@ -461,10 +469,16 @@ html {
 }
 @media (max-width: 497px) {
   #nosotros-conteiner {
-    font-size: 0.35rem;
+    font-size: 0.45rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.35rem;
+  }
+  #seguros-conteiner {
+    font-size: 0.3rem;
+  }
+  #cotiza100 {
+    font-size: 0.3rem;
   }
 }
 @media (max-width: 480px) {
@@ -476,7 +490,7 @@ html {
     font-size: 1.2em;
   }
   #nosotros-conteiner {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
   #franja-destacado-conteiner {
     font-size: 0.35rem;
@@ -509,13 +523,10 @@ html {
     font-size: 0.7em;
   }
   #franja-destacado-conteiner {
-    font-size: 0.3rem;
+    font-size: 0.25rem;
   }
   #seguros-conteiner {
     font-size: 0.3rem;
-  }
-  .cotiza100-parraph {
-    font-size: 1.3em;
   }
   #contacto-container {
     font-size: 0.2rem;
@@ -527,7 +538,19 @@ html {
 }
 @media (max-width: 373px) {
   #nosotros-conteiner {
+    font-size: 0.36rem;
+  }
+  #franja-destacado-conteiner {
+    font-size: 0.2rem;
+  }
+  #seguros-conteiner {
+    font-size: 0.2rem;
+  }
+  #cotiza100 {
     font-size: 0.25rem;
+  }
+  #contacto-container {
+    font-size: 0.15rem;
   }
 }
 @media (max-width: 330px) {
@@ -543,35 +566,20 @@ html {
   #section-conteiner {
     font-size: 0.6em;
   }
-  #nosotros-conteiner {
-    font-size: 0.25rem;
-  }
-  #franja-destacado-conteiner {
-    font-size: 0.25rem;
-  }
   #seguros-conteiner {
-    font-size: 0.2rem;
-  }
-  #cotiza100 {
-    font-size: 0.3rem;
-  }
-  #contacto-container {
-    font-size: 0.18rem;
+    font-size: 0.17rem;
   }
   #footer-conteiner {
     font-size: 0.1rem;
     height: 14em;
   }
 }
-/*
-Códigos de color:
-- Fucsia: #ea37ae
-- Turquesa: #39c0e7
-- Amarillo: #f1f743
-- Gris: #f0f0f0
-- Negro: #000000
-
-Google Font:
-- Poppins-bold: botones COTIZAR SEGUROS
-- Poppins:
-*/
+@media (max-width: 320px) {
+  #nosotros-conteiner {
+    font-size: 0.2rem;
+    height: 45em;
+  }
+  #contacto-container {
+    font-size: 0.15rem;
+  }
+}
