@@ -24,6 +24,7 @@ html {
 }
 .nav-menu-img {
   width: 2.5em;
+  height: auto;
   margin: 0 0.5em 0 1em;
 }
 .nav-link {
@@ -45,10 +46,12 @@ html {
 }
 #header-logo-conteiner {
   width: 25em;
+  height: auto;
   text-align: center;
 }
 #header-logo {
   width: 12em;
+  height: auto;
 }
 #logo-text {
   font-family: "Poppins semibold";
@@ -64,6 +67,7 @@ html {
 #redes {
   position: absolute;
   width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   right: 0px;
@@ -106,7 +110,6 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-  border: 1px red solid;
 }
 #nosotros {
   font-size: 0.9em;
@@ -116,6 +119,7 @@ html {
 }
 #nosotros-img {
   width: 2.5em;
+  height: auto;
 }
 #nosotros-texth2 {
   font-family: "Poppins semibold";
@@ -191,6 +195,7 @@ html {
 }
 .iconos-seguros-img {
   width: 4em;
+  height: auto;
   margin: 0.5em 0.5em 0.5em 0.5em;
 }
 #cotiza100 {
@@ -248,16 +253,15 @@ html {
   flex-direction: column;
   margin-right: 13em;
   margin-bottom: 10em;
-  border: 1px red solid;
 }
 #column1-div1 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  border: 1px red solid;
 }
 #doble-flecha {
   width: 5em;
+  height: auto;
   margin-right: 2em;
 }
 #column1-text {
@@ -266,6 +270,7 @@ html {
 }
 .contact-data {
   width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -274,6 +279,7 @@ html {
 }
 .contact-data-img {
   width: 4em;
+  height: auto;
   margin-right: 1em;
 }
 .contact-data-text {
@@ -287,6 +293,7 @@ html {
 #ngeLogoContacto {
   position: absolute;
   width: 9em;
+  height: auto;
   bottom: 0px;
   right: 0px;
   margin: 0 2em 2em 0;
