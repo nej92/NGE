@@ -110,7 +110,6 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
-
   padding: 0 8em 0 8em;
 }
 #nosotros {
@@ -135,6 +134,10 @@ html {
 }
 #nosotros-parraph {
   font-family: "Poppins medium";
+}
+.chica_nosotros-conteiner {
+  width: 22em;
+  height: 35em;
 }
 #chica_nosotros {
   width: 22em;
@@ -288,6 +291,11 @@ html {
   width: 52em;
   height: 41em;
 }
+#foto-chica {
+  display: none;
+  width: 52em;
+  height: 41em;
+}
 #ngeLogoContacto {
   position: absolute;
   width: 9em;
@@ -302,21 +310,30 @@ html {
   height: auto;
   font-size: 1rem;
   display: flex;
+}
+#footerContent1 {
+  display: flex;
+  width: 100%;
+  height: auto;
   justify-content: space-around;
-  align-items: center;
-  padding: 2em 0;
+}
+#footerContent2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
 }
 .footer-divs {
   font-family: "Poppins light";
   display: flex;
+  justify-content: center;
+  align-items: flex-start;
   flex-direction: column;
-}
-.footer-divs {
-  font-size: 0.9em;
+  margin: 1em 0;
 }
 #footer-img {
   width: 21em;
-  height: 3.5em;
+  height: 3em;
 }
 /*-----------------------RESPONSIVE-----------------------*/
 @media (max-width: 1680px) {
@@ -463,7 +480,7 @@ html {
     font-size: 0.5rem;
   }
   #franja-destacado-conteiner {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   #seguros-conteiner {
     font-size: 0.5rem;
@@ -486,7 +503,7 @@ html {
     font-size: 0.46rem;
   }
   #franja-destacado-conteiner {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
   }
   #seguros-conteiner {
     font-size: 0.4rem;
@@ -512,22 +529,64 @@ html {
     font-size: 0.45rem;
   }
   #nosotros-conteiner {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
+    flex-direction: column;
+    padding: 0 2em 0 2em;
+  }
+  #nosotros {
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+  }
+  .chica_nosotros-conteiner {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
   }
   #franja-destacado-conteiner {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
   #seguros-conteiner {
-    font-size: 0.35rem;
+    font-size: 0.4rem;
+  }
+  #foto-chicos {
+    display: none;
+  }
+  #foto-chica {
+    display: block;
+    width: 28em;
   }
   #cotiza100 {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   #contacto-container {
-    font-size: 0.28rem;
+    font-size: 0.35rem;
   }
   #footer-conteiner {
-    font-size: 0.32rem;
+    font-size: 0.5rem;
+  }
+  .footer-divs {
+    width: 21em;
+  }
+  #footerContent1 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1em;
+  }
+  #footerContent2 {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 1em;
   }
 }
 @media (max-width: 414px) {
@@ -541,24 +600,22 @@ html {
     font-size: 0.4rem;
   }
   #nosotros-conteiner {
-    font-size: 0.35rem;
-    flex-direction: row;
+    font-size: 0.5rem;
   }
   #franja-destacado-conteiner {
-    font-size: 0.3rem;
+    font-size: 0.5rem;
   }
   #seguros-conteiner {
-    font-size: 0.3rem;
-  }
-  #cotiza100 {
     font-size: 0.4rem;
   }
+  #cotiza100 {
+    font-size: 0.5rem;
+  }
   #contacto-container {
-    font-size: 0.25rem;
+    font-size: 0.3rem;
   }
   #footer-conteiner {
-    font-size: 0.35rem;
-    flex-wrap: wrap;
+    font-size: 0.45rem;
   }
 }
 @media (max-width: 373px) {
@@ -572,22 +629,22 @@ html {
     font-size: 0.35rem;
   }
   #nosotros-conteiner {
-    font-size: 0.3rem;
+    font-size: 0.4rem;
   }
   #franja-destacado-conteiner {
-    font-size: 0.25rem;
-  }
-  #seguros-conteiner {
-    font-size: 0.25rem;
-  }
-  #cotiza100 {
     font-size: 0.35rem;
   }
+  #seguros-conteiner {
+    font-size: 0.3rem;
+  }
+  #cotiza100 {
+    font-size: 0.4rem;
+  }
   #contacto-container {
-    font-size: 0.22rem;
+    font-size: 0.25rem;
   }
   #footer-conteiner {
-    font-size: 0.2rem;
+    font-size: 0.45rem;
   }
 }
 @media (max-width: 330px) {
@@ -601,17 +658,20 @@ html {
     font-size: 0.3rem;
   }
   #seguros-conteiner {
-    font-size: 0.2rem;
-  }
-  #cotiza100 {
     font-size: 0.3rem;
   }
+  #cotiza100 {
+    font-size: 0.4rem;
+  }
   #contacto-container {
-    font-size: 0.2rem;
+    font-size: 0.25rem;
   }
   #footer-conteiner {
-    font-size: 0.15rem;
+    font-size: s;
   }
 }
 @media (max-width: 320px) {
+  #footer-img {
+    width: 18em;
+  }
 }
