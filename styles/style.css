@@ -6,6 +6,27 @@
 html {
   scroll-behavior: smooth;
 }
+@font-face{
+  font-family: "Poppins";
+  src: url('/Poppins/Poppins/Poppins-Bold.ttf'),
+  url('/Poppins/Poppins/Poppins-BoldItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraBold.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraBoldItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraLight.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraLightItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Italic.ttf'),
+  url('/Poppins/Poppins/Poppins-Light.ttf'),
+  url('/Poppins/Poppins/Poppins-LightItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Medium.ttf'),
+  url('/Poppins/Poppins/Poppins-MediumItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Regular.ttf'),
+  url('/Poppins/Poppins/Poppins-SemiBold.ttf'),
+  url('/Poppins/Poppins/Poppins-SemiBoldItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Thin.ttf'),
+  url('/Poppins/Poppins/Poppins-ThinItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Black.ttf'),
+  url('/Poppins/Poppins/Poppins-BlackItalic.ttf');
+}
 #nav-conteiner {
   position: fixed;
   width: 100%;
@@ -80,7 +101,7 @@ html {
 }
 #section-conteiner {
   width: 100%;
-  height: 15em;
+  height: auto;
   font-size: 0.8rem;
   margin-top: 4em;
   margin-bottom: 4em;
@@ -88,34 +109,39 @@ html {
   justify-content: center;
 }
 #section-div {
-  width: 15em;
-  height: 15em;
+  width: 20em;
+  height: 20em;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  /*
   background-color: #000000;
-  border-radius: 50%;
+  border-radius: 50%;*/
 }
+#boton-cotizar1{
+  width: 20em;
+  height: 20em;
+}
+/*
 #section-div-text {
   font-family: "Poppins semibold";
   font-size: 2em;
   color: #f1f743;
   text-decoration: none;
-}
+}*/
 #nosotros-conteiner {
   width: 100%;
   height: auto;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-around;
-  align-items: flex-end;
+  align-items: center;
   padding: 0 8em 0 8em;
 }
 #nosotros {
   min-width: 40em;
   height: 100%;
-  padding-bottom: 2em;
 }
 #nosotros-img {
   width: 4em;
@@ -197,9 +223,12 @@ html {
   width: auto; /*VER SI SE ROMPE*/
 }
 .iconos-seguros-img {
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   margin: 0.5em 0.5em 0.5em 0.5em;
+}
+#moto:hover{
+  
 }
 #cotiza100 {
   width: 100%;
@@ -227,17 +256,19 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-color: #ffff;
-  border-radius: 50%;
   margin-top: 2em;
 }
+#boton-cotizar2{
+  width: 10em;
+  height: 10em;
+}
+/*
 #cotizar-text {
   font-family: "Poppins semibold";
   color: #000000;
   font-size: 1.3em;
   text-decoration: none;
-}
+}*/
 #contacto-container {
   position: relative;
   width: 100%;
@@ -245,7 +276,7 @@ html {
   font-size: 1rem;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: space-between;
   background-color: #f0f0f0;
 }
 #column1 {
@@ -254,6 +285,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 6%;
 }
 #column1-div1 {
   display: flex;
@@ -288,8 +320,8 @@ html {
   font-size: 2em;
 }
 #foto-chicos {
-  width: 52em;
-  height: 41em;
+  width: 48em;
+  height: 38em;
 }
 #foto-chica {
   display: none;
@@ -300,9 +332,9 @@ html {
   position: absolute;
   width: 9em;
   height: 5em;
-  bottom: 0px;
+  top: 0px;
   right: 0px;
-  margin: 0 2em 2em 0;
+  margin: 2em 2em 0 0;
   z-index: 9999;
 }
 #footer-conteiner {
@@ -450,6 +482,10 @@ html {
   #nosotros-conteiner {
     font-size: 0.55rem;
   }
+  #nosotros{
+    font-size: 1.2em;
+    min-width: 35em;
+  }
   #franja-destacado-conteiner {
     font-size: 0.7rem;
   }
@@ -478,6 +514,10 @@ html {
   }
   #nosotros-conteiner {
     font-size: 0.5rem;
+  }
+  #nosotros{
+    font-size: 1.2em;
+    min-width: 30em;
   }
   #franja-destacado-conteiner {
     font-size: 0.5rem;
@@ -509,7 +549,7 @@ html {
     font-size: 0.4rem;
   }
   #cotiza100 {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
   #contacto-container {
     font-size: 0.31rem;
@@ -529,12 +569,13 @@ html {
     font-size: 0.45rem;
   }
   #nosotros-conteiner {
-    font-size: 0.5rem;
+    font-size: .5rem;
     flex-direction: column;
     padding: 0 2em 0 2em;
   }
   #nosotros {
     width: 100%;
+    font-size: 1.2em;
     height: auto;
     align-items: flex-start;
   }
@@ -558,7 +599,8 @@ html {
   }
   #foto-chica {
     display: block;
-    width: 28em;
+    height: 36em;
+    width: 25em;
   }
   #cotiza100 {
     font-size: 0.6rem;
@@ -602,6 +644,11 @@ html {
   #nosotros-conteiner {
     font-size: 0.5rem;
   }
+  #nosotros{
+    font-size: 1.2em;
+    min-width: auto;
+  }
+  
   #franja-destacado-conteiner {
     font-size: 0.5rem;
   }
