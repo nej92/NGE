@@ -334,6 +334,28 @@ html {
   margin: 2em 2em 0 0;
   z-index: 9999;
 }
+#logosEmpresas-conteiner{
+  width: 100%;
+  height: auto;
+  margin: 2em 0 2em 0;
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 15em;
+  grid-row-gap: 5em;
+  grid-column-gap: 2em;
+}
+.logo-nombre-empresas{
+  text-align: center;
+}
+.nombre-logosEmpresas{
+  font-family: "Poppins light";
+}
+.img-logosEmpresas{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 #footer-conteiner {
   width: 100%;
   height: auto;
@@ -358,33 +380,15 @@ html {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin: 1em 0;
+  margin: 2em 0;
 }
 #footer-img {
   width: 21em;
   height: 3em;
 }
-#logosEmpresas-conteiner{
-  width: 100%;
-  height: auto;
-  font-size: 1.5rem;
-  display: grid;
-  grid-auto-rows: 20em;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+#footer-QR{
+  width: 12em;
 }
-.logo-nombre-empresas{
-
-  border: 1px solid red;
-}
-.img-logosEmpresas{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 /*-----------------------RESPONSIVE-----------------------*/
 @media (max-width: 1680px) {
   #header-conteiner {
@@ -404,6 +408,9 @@ html {
   }
   #contacto-container {
     font-size: 1rem;
+  }
+  #logosEmpresas-conteiner{
+    font-size: 1.5em;
   }
   #footer-conteiner {
     font-size: 0.9rem;
@@ -456,6 +463,9 @@ html {
   }
   #contacto-container {
     font-size: 0.65rem;
+  }
+  #logosEmpresas-conteiner{
+    font-size: 1.2em;
   }
   #footer-conteiner {
     font-size: 0.8rem;
@@ -516,6 +526,9 @@ html {
   #contacto-container {
     font-size: 0.38rem;
   }
+  #logosEmpresas-conteiner{
+    font-size: .8em;
+  }
   #footer-conteiner {
     font-size: 0.53rem;
   }
@@ -551,6 +564,9 @@ html {
   }
   #contacto-container {
     font-size: 0.33rem;
+  }
+  #logosEmpresas-conteiner{
+    font-size: .7em;
   }
   #footer-conteiner {
     font-size: 0.45rem;
@@ -592,22 +608,20 @@ html {
     padding: 0 2em 0 2em;
   }
   #nosotros {
-    width: 100%;
-    font-size: 1.2em;
+    min-width: auto;
     height: auto;
-    align-items: flex-start;
   }
   .chica_nosotros-conteiner {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   #franja-destacado-conteiner {
     font-size: 0.5rem;
     height: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   #seguros-conteiner {
     font-size: 0.4rem;
@@ -626,6 +640,9 @@ html {
   #contacto-container {
     font-size: 0.35rem;
   }
+  #logosEmpresas-conteiner{
+    font-size: .6em;
+  }
   #footer-conteiner {
     font-size: 0.5rem;
   }
@@ -636,7 +653,7 @@ html {
     width: 100%;
     height: auto;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     padding-left: 1em;
   }
@@ -644,7 +661,7 @@ html {
     width: 100%;
     height: auto;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     padding-left: 1em;
   }
@@ -679,6 +696,9 @@ html {
   #contacto-container {
     font-size: 0.3rem;
   }
+  #logosEmpresas-conteiner{
+    font-size: .5em;
+  }
   #footer-conteiner {
     font-size: 0.45rem;
   }
@@ -694,10 +714,10 @@ html {
     font-size: 0.35rem;
   }
   #nosotros-conteiner {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   #franja-destacado-conteiner {
-    font-size: 0.35rem;
+    font-size: 0.4rem;
   }
   #seguros-conteiner {
     font-size: 0.3rem;
@@ -718,6 +738,9 @@ html {
   }
   #header-conteiner {
     font-size: 0.43rem;
+  }
+  #nosotros-conteiner {
+    font-size: 0.45rem;
   }
   #section-conteiner {
     font-size: 0.3rem;
