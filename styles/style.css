@@ -592,7 +592,7 @@ html {
     font-size: 0.42rem;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   #nav-conteiner {
     font-size: 0.6rem;
   }
@@ -666,7 +666,7 @@ html {
     padding-left: 1em;
   }
 }
-@media (max-width: 414px) {
+@media only screen and  (max-width: 414px) {
   #nav-conteiner {
     font-size: 0.58rem;
   }
@@ -703,7 +703,7 @@ html {
     font-size: 0.45rem;
   }
 }
-@media (max-width: 373px) {
+@media only screen and (max-width: 373px) {
   #nav-conteiner {
     font-size: 0.5rem;
   }
@@ -732,7 +732,7 @@ html {
     font-size: 0.45rem;
   }
 }
-@media (max-width: 330px) {
+@media only screen and (max-width: 330px) {
   #nav-conteiner {
     font-size: 0.5rem;
   }
@@ -758,7 +758,7 @@ html {
     font-size: s;
   }
 }
-@media (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   #footer-img {
     width: 18em;
   }
