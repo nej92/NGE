@@ -221,12 +221,191 @@ html {
 }
 .iconos-seguro {
   width: auto; /*VER SI SE ROMPE*/
+  display: flex;
 }
 .iconos-seguros-img {
   width: 6em;
   height: 6em;
   margin: 0.5em 0.5em 0.5em 0.5em;
 }
+/*ICONOS SEGUROS*/
+#moto{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-moto:hover #moto{
+  visibility: visible;
+}
+#auto{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-auto:hover #auto{
+  visibility: visible;
+}
+#bici{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-bici:hover #bici{
+  visibility: visible;
+}
+#celular{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-celular:hover #celular{
+  visibility: visible;
+}
+#corazon{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-corazon:hover #corazon{
+  visibility: visible;
+}
+#casa{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-casa:hover #casa{
+  visibility: visible;
+}
+#caucion{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-caucion:hover #caucion{
+  visibility: visible;
+}
+#caucion-alquler{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-caucion-alquler:hover #caucion-alquler{
+  visibility: visible;
+}
+#art{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-art:hover #art{
+  visibility: visible;
+}
+#comercio{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-comercio:hover #comercio{
+  visibility: visible;
+}
+#bolsoprote{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-bolsoprote:hover #bolsoprote{
+  visibility: visible;
+}
+#embarcacion{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-embarcacion:hover #embarcacion{
+  visibility: visible;
+}
+#accpersonales{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-accpersonales:hover #accpersonales{
+  visibility: visible;
+}
+#aeronav{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-aeronav:hover #aeronav{
+  visibility: visible;
+}
+#agro{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-agro:hover #agro{
+  visibility: visible;
+}
+#respcivil{
+  font-family: "Poppins medium";
+  position: absolute;
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-respcivil:hover #respcivil{
+  visibility: visible;
+}
+/*------------------------------*/
 #cotiza100 {
   width: 100%;
   height: 35em;
@@ -332,7 +511,7 @@ html {
   top: 0px;
   right: 0px;
   margin: 2em 2em 0 0;
-  z-index: 9999;
+  z-index: 998;
 }
 #logosEmpresas-conteiner{
   width: 100%;
