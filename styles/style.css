@@ -405,6 +405,17 @@ html {
 #cont-respcivil:hover #respcivil{
   visibility: visible;
 }
+#asesorWSP{
+  position: absolute;
+  font-family: "Poppins medium";
+  visibility: hidden;
+  background-color: #000000;
+  color: #f0f0f0;
+  border-radius: 20%;
+}
+#cont-asesorWSP:hover #asesorWSP{
+  visibility: visible;
+}
 /*------------------------------*/
 #cotiza100 {
   width: 100%;
