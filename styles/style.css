@@ -7,28 +7,13 @@
 }
 html {
   scroll-behavior: smooth;
-}
+}/*
 @font-face{
   font-family: "Poppins";
-  src: url('/Poppins/Poppins/Poppins-Bold.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-BoldItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraBold.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraLight.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Italic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Light.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-LightItalic.ttf') format('truetype'),
+  src: url('/Poppins/Poppins/Poppins-Light.ttf') format('truetype'),
   url('/Poppins/Poppins/Poppins-Medium.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-MediumItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Regular.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-SemiBold.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Thin.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ThinItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Black.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-BlackItalic.ttf') format('truetype');
-}
+  url('/Poppins/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}*/
 #nav-conteiner {
   position: fixed;
   width: 100%;
@@ -51,7 +36,8 @@ html {
   margin: 0 0.5em 0 1em;
 }
 .nav-link {
-  font-family: "Poppins light";
+  font-family: "Poppins";
+  font-weight: 300;
   text-decoration: none;
   color: white;
   margin: 0 1em 0 0;
@@ -77,7 +63,7 @@ html {
   height: 8em;
 }
 #logo-text {
-  font-family: "Poppins semibold";
+  font-family: "Poppins";
   font-size: 1.4em;
 }
 .asegurar {
@@ -150,18 +136,18 @@ html {
   height: 4em;
 }
 #nosotros-texth2 {
-  font-family: "Poppins semibold";
+  font-family: "Poppins";
   margin-bottom: 0.2em;
 }
 #broker {
   color: #ea37ae;
 }
 #nosotros-texth6 {
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   margin-bottom: 0.5em;
 }
 #nosotros-parraph {
-  font-family: "Poppins medium";
+  font-family: "Poppins";
 }
 .chica_nosotros-conteiner {
   width: 22em;
@@ -181,7 +167,7 @@ html {
 }
 .franja-destacado-div {
   display: flex;
-  font-family: "Poppins SemiBold";
+  font-family: "Poppins";
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -189,7 +175,7 @@ html {
   text-align: center;
 }
 .franja-text {
-  font-family: "Poppins semibold";
+  font-family: "Poppins";
   font-size: 1.5em;
   color: #ffff;
   margin-top: 0.7em;
@@ -216,7 +202,7 @@ html {
   height: 12em;
 }
 #seguros-parraph {
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   font-size: 1.8em;
   text-align: center;
   margin: 2em 0 2em 0;
@@ -232,7 +218,7 @@ html {
 }
 /*ICONOS SEGUROS*/
 #moto{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -243,7 +229,7 @@ html {
   visibility: visible;
 }
 #auto{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -254,7 +240,7 @@ html {
   visibility: visible;
 }
 #bici{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -265,7 +251,7 @@ html {
   visibility: visible;
 }
 #celular{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -276,7 +262,7 @@ html {
   visibility: visible;
 }
 #corazon{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -287,7 +273,7 @@ html {
   visibility: visible;
 }
 #casa{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -298,7 +284,7 @@ html {
   visibility: visible;
 }
 #caucion{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -309,7 +295,7 @@ html {
   visibility: visible;
 }
 #caucion-alquler{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -320,7 +306,7 @@ html {
   visibility: visible;
 }
 #art{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -331,7 +317,7 @@ html {
   visibility: visible;
 }
 #comercio{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -342,7 +328,7 @@ html {
   visibility: visible;
 }
 #bolsoprote{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -353,7 +339,7 @@ html {
   visibility: visible;
 }
 #embarcacion{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -364,7 +350,7 @@ html {
   visibility: visible;
 }
 #accpersonales{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -375,7 +361,7 @@ html {
   visibility: visible;
 }
 #aeronav{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -386,7 +372,7 @@ html {
   visibility: visible;
 }
 #agro{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -397,7 +383,7 @@ html {
   visibility: visible;
 }
 #respcivil{
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   position: absolute;
   visibility: hidden;
   background-color: #000000;
@@ -420,7 +406,7 @@ html {
   text-align: center;
 }
 .cotiza100-parraph {
-  font-family: "Poppins semibold";
+  font-family: "Poppins";
   color: #ffff;
   font-size: 2em;
 }
@@ -442,7 +428,7 @@ html {
 }
 /*
 #cotizar-text {
-  font-family: "Poppins semibold";
+  font-family: "Poppins";
   color: #000000;
   font-size: 1.3em;
   text-decoration: none;
@@ -476,7 +462,7 @@ html {
   margin-right: 2em;
 }
 #column1-text {
-  font-family: "Poppins semibold";
+  font-family: "Poppins";
   font-size: 4em;
 }
 .contact-data {
@@ -494,7 +480,7 @@ html {
   margin-right: 1em;
 }
 .contact-data-text {
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   font-size: 2em;
 }
 #foto-chicos {
@@ -534,13 +520,13 @@ html {
   text-align: center;
 }
 #ellosNosEligieron h1{
-  font-family: "Poppins light";
+  font-family: "Poppins";
 }
 .logo-nombre-empresas{
   text-align: center;
 }
 .nombre-logosEmpresas{
-  font-family: "Poppins light";
+  font-family: "Poppins";
 }
 .img-logosEmpresas{
   width: 100%;
@@ -566,7 +552,7 @@ html {
   justify-content: space-around;
 }
 .footer-divs {
-  font-family: "Poppins light";
+  font-family: "Poppins";
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -582,7 +568,7 @@ html {
 }
 #asesorWSP{
   position: absolute;
-  font-family: "Poppins medium";
+  font-family: "Poppins";
   visibility: hidden;
   background-color: #000000;
   color: #f0f0f0;
