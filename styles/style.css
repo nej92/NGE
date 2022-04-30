@@ -10,24 +10,24 @@ html {
 }
 @font-face{
   font-family: "Poppins";
-  src: url('/Poppins/Poppins/Poppins-Bold.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-BoldItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraBold.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraBoldItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraLight.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ExtraLightItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Italic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Light.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-LightItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Medium.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-MediumItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Regular.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-SemiBold.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-SemiBoldItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Thin.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-ThinItalic.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-Black.ttf') format('truetype'),
-  url('/Poppins/Poppins/Poppins-BlackItalic.ttf') format('truetype');
+  src: url('/Poppins/Poppins/Poppins-Bold.ttf'),
+  url('/Poppins/Poppins/Poppins-BoldItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraBold.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraBoldItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraLight.ttf'),
+  url('/Poppins/Poppins/Poppins-ExtraLightItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Italic.ttf'),
+  url('/Poppins/Poppins/Poppins-Light.ttf'),
+  url('/Poppins/Poppins/Poppins-LightItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Medium.ttf'),
+  url('/Poppins/Poppins/Poppins-MediumItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Regular.ttf'),
+  url('/Poppins/Poppins/Poppins-SemiBold.ttf'),
+  url('/Poppins/Poppins/Poppins-SemiBoldItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Thin.ttf'),
+  url('/Poppins/Poppins/Poppins-ThinItalic.ttf'),
+  url('/Poppins/Poppins/Poppins-Black.ttf'),
+  url('/Poppins/Poppins/Poppins-BlackItalic.ttf');
 }
 #nav-conteiner {
   position: fixed;
@@ -955,9 +955,6 @@ html {
   }
   #contacto-container {
     font-size: 0.25rem;
-  }
-  #footer-conteiner {
-    font-size: s;
   }
 }
 @media only screen and (max-width: 320px) {
